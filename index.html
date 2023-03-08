@@ -15,33 +15,38 @@
     <title>Document</title>
   </head>
 
+
   <body>
     <!-- start navbar  -->
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg " style="background-color: rgb(237, 237, 237);">
       <div class="container">
-        <a class="navbar-brand text-white fw-bold" href="#">TFARREJ TV</a>
+        <a class="navbar-brand text-white  fw-bold" href="#">TFARREJ TV</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon" style="color:white"></span>
         </button>
         <div class="collapse navbar-collapse " id="navbarSupportedContent">
         
-          <form class="d-flex mx-auto" role="search">
+          <form class="d-flex mx-auto align-items-center" role="search" >
             <input class="form-control" style="width: 20em;" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success ms-5"  type="submit">Search</button>
+            <i class="fa-sharp fa-solid fa-microphone text-white " style="width: 10px; margin-left: 10px; font-size: 25px;border-radius: 50%;display: block;"></i>
           </form>
-          <a href="#"><img src="/images/images.jpeg" style="width: 40px; border-radius: 50%;" alt=""></a>
-          <a href="">          <i class="fa-solid fa-video ms-4 text-white fs-4"></i>
-          </a>
-          <a href="">          <i class="fa-solid fa-bell ms-4 text-white fs-4"></i>
-          </a>
+          <div class="links" style="display: flex; justify-content: center;align-items: center; ">
+            <a href="#"><img src="/images/images.jpeg" style="width: 40px; border-radius: 50%;border: 1px solid rgb(0, 0, 0);"> </a>
+            <a href=""><i class=" fa-solid fa-video ms-4 text-white fs-4"></i>
+            </a>
+            <a href=""><i class="fa-solid fa-bell ms-4 text-white fs-4"></i>
+            </a>
+          </div>
         </div>
       </div>
     </nav>
-      <div class="cardes my-5">
-        <div class="container">
+    <!-- end navbar -->
+<!-- start main section -->
+      <div class="cardes main-section my-5">
+        <div class="container-fluid">
           <div class="row">
-            <!-- start nav-link -->
-            <div class="col-md-2 	d-sm-none links  d-md-block">
+            <!-- start aside section -->
+            <div class="col-md-2  	d-sm-none links  d-md-block" style="border-right: 1px solid rgb(167, 167, 167);">
               <div class="list-group">
                 <a href="#" class="list-group-item list-group-item-action"><i class="fa-solid fa-house me-3"></i>Home</a>
                 <a href="#" class="list-group-item list-group-item-action"><i class="fa-solid fa-film me-3"></i> Shorts</a>
@@ -49,213 +54,100 @@
               </div>
               <hr>
               <div class="list-group">
-                <a href="#" class="list-group-item list-group-item-action"><i class="fa-solid fa-house me-3"></i>Home</a>
-                <a href="#" class="list-group-item list-group-item-action"><i class="fa-solid fa-film me-3"></i> Shorts</a>
-                <a href="#" class="list-group-item list-group-item-action"><i class="fa-solid fa-folder-tree me-3"></i>Subscriptions</a>
+                <a href="#" class="list-group-item list-group-item-action"><i class="fa-solid fa-folder-open me-3"></i>biblioteque</a>
+                <a href="#" class="list-group-item list-group-item-action"><i class="fa-solid fa-film me-3"></i> Historique</a>
+            
               </div>
               <hr>
+              <div class="list-group mx-3">
+                <p>Connectez-vous à YouTube pour cliquer sur "J'aime", ajouter un commentaire et vous abonner</p>
+                <button type="button" class="btn btn-outline-primary rounded-pill">connect</button>
+              </div>
+              <hr>
+
+              <h4 class="p-2">Explorer</h4>
               <div class="list-group">
-                <a href="#" class="list-group-item list-group-item-action"><i class="fa-solid fa-house me-3"></i>Home</a>
-                <a href="#" class="list-group-item list-group-item-action"><i class="fa-solid fa-film me-3"></i> Shorts</a>
-                <a href="#" class="list-group-item list-group-item-action"><i class="fa-solid fa-folder-tree me-3"></i>Subscriptions</a>
+                <a href="#" class="list-group-item list-group-item-action"><i class="me-2 fa-sharp fa-solid fa-fire"></i>Tendence</a>
+                <a href="#" class="list-group-item list-group-item-action"><i class="me-2 fa-solid fa-music"></i> Musique</a>
+                <a href="#" class="list-group-item list-group-item-action"><i class="me-2 fa-solid fa-video"></i>Videos</a>
+                <a href="#" class="list-group-item list-group-item-action"><i class="me-2 fa-solid fa-trophy"></i>Sports</a>
               </div>
               <hr>
             </div>
-            <!-- start card section -->
-            
+            <!-- end aside section -->
+
+            <!-- start videos section -->
           <div class="col-md-10 videos">
+            <!-- start top nav-link section -->
+            <div class="row justify-content-center gap-3
+            mb-4 ">
+            <button type="button" class="d-none d-md-block btn btn-outline-secondary col-auto">News</button>
+            <button type="button" class="d-none d-md-block btn btn-outline-secondary col-auto">Films</button>
+            <button type="button" class="d-none d-md-block btn btn-outline-secondary col-auto">Series</button>
+            <button type="button" class="d-none d-md-block btn btn-outline-secondary col-auto">Live</button>
+            <button type="button" class="d-none d-md-block btn btn-outline-secondary col-auto">Klay bbj</button>
+            <button type="button" class="d-none d-md-block btn btn-outline-secondary col-auto">tuninisen</button>
+            <button type="button" class="d-none d-md-block btn btn-outline-secondary col-auto">plus tard</button>
+            <button type="button" class="d-none d-md-block btn btn-outline-secondary col-auto">Quran</button>
+            <button type="button" class="d-none d-md-block btn btn-outline-secondary col-auto">Films</button>
+            <button type="button" class="d-none d-md-block btn btn-outline-secondary col-auto">News</button>
+            </div>
+                              <!-- end top nav-link section -->  
+<!-- start videos cards section -->
             <div class="row row-cols-1 row-cols-md-3 g-4">
+              <!-- start card one -->
               <div class="col-sm-12 col-md-6 col-lg-4">
                 <div class="card h-100">
                   <img src="/images/0x0.jpg" class="card-img-top img-fluid" alt="...">
-                  <div class="card-body">
-                    <img src="/images/images.jpeg" alt="">
+                  <div class="card-body d-flex align-items-center">
+                    <img src="/images/Lamborghini_Aventador_LP700-4_Orange.jpg" alt="">
                     <div class="text">
-                      <p class="fw-bold mb-2">Part 1:Génie Electrique</p>
-                      <p class="text-muted">Zouari School</p>
-                      <p class="text-muted">112K Views . 3 years ago</p>
+                      <p class="fw-bold mb-2">Fast Cars in the Word</p>
+                      <p class="text-muted">CarsCars</p>
+                      <p class="text-muted">117M Views . 3 years ago</p>
                     </div>
                   </div>
-
                   </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-4">
-                  <div class="card h-100">
-                  <img src="/images/0x0.jpg" class="card-img-top img-fluid" alt="...">
-                  <div class="card-body">
-                    <img src="/images/images.jpeg" alt="">
-                    <div class="text">
-                      <p class="fw-bold mb-2">Part 1:Génie Electrique</p>
-                      <p class="text-muted">Zouari School</p>
-                      <p class="text-muted">112K Views . 3 years ago</p>
-                    </div>
-                  </div>
-
-                    <div class="col">
-                    </div>
-                  
-                  </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-4">
-                  <div class="card h-100">
-                  <img src="/images/0x0.jpg" class="card-img-top img-fluid" alt="...">
-                  <div class="card-body">
-                    <img src="/images/images.jpeg" alt="">
-                    <div class="text">
-                      <p class="fw-bold mb-2">Part 1:Génie Electrique</p>
-                      <p class="text-muted">Zouari School</p>
-                      <p class="text-muted">112K Views . 3 years ago</p>
-                    </div>
-                  </div>
-
-                    <div class="col">
-                    </div>
-                  
-                  </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-4">
-                  <div class="card h-100">
-                  <img src="/images/0x0.jpg" class="card-img-top img-fluid" alt="...">
-                  <div class="card-body">
-                    <img src="/images/images.jpeg" alt="">
-                    <div class="text">
-                      <p class="fw-bold mb-2">Part 1:Génie Electrique</p>
-                      <p class="text-muted">Zouari School</p>
-                      <p class="text-muted">112K Views . 3 years ago</p>
-                    </div>
-                  </div>
-
-                  
-                  </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-4">
-                  <div class="card h-100">
-                  <img src="/images/0x0.jpg" class="card-img-top img-fluid" alt="...">
-                  <div class="card-body">
-                    <img src="/images/images.jpeg" alt="">
-                    <div class="text">
-                      <p class="fw-bold mb-2">Part 1:Génie Electrique</p>
-                      <p class="text-muted">Zouari School</p>
-                      <p class="text-muted">112K Views . 3 years ago</p>
-                    </div>
-                  </div>
-
-                    <div class="col">
-                    </div>
-                  
-                  </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-4">
-                  <div class="card h-100">
-                  <img src="/images/0x0.jpg" class="card-img-top img-fluid" alt="...">
-                  <div class="card-body">
-                    <img src="/images/images.jpeg" alt="">
-                    <div class="text">
-                      <p class="fw-bold mb-2">Part 1:Génie Electrique</p>
-                      <p class="text-muted">Zouari School</p>
-                      <p class="text-muted">112K Views . 3 years ago</p>
-                    </div>
-                  </div>
-
-
-                  
-                  </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-4">
-                  <div class="card h-100">
-                  <img src="/images/0x0.jpg" class="card-img-top img-fluid" alt="...">
-                  <div class="card-body">
-                    <img src="/images/images.jpeg" alt="">
-                    <div class="text">
-                      <p class="fw-bold mb-2">Part 1:Génie Electrique</p>
-                      <p class="text-muted">Zouari School</p>
-                      <p class="text-muted">112K Views . 3 years ago</p>
-                    </div>
-                  </div>
-
-                  
-                  
-                  </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-4">
-                  <div class="card h-100">
-                  <img src="/images/0x0.jpg" class="card-img-top img-fluid" alt="...">
-                  <div class="card-body">
-                    <img src="/images/images.jpeg" alt="">
-                    <div class="text">
-                      <p class="fw-bold mb-2">Part 1:Génie Electrique</p>
-                      <p class="text-muted">Zouari School</p>
-                      <p class="text-muted">112K Views . 3 years ago</p>
-                    </div>
-                  </div>
-
-                  
-                  
-                  </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-4">
-                  <div class="card h-100">
-                  <img src="/images/0x0.jpg" class="card-img-top img-fluid" alt="...">
-                  <div class="card-body">
-                    <img src="/images/images.jpeg" alt="">
-                    <div class="text">
-                      <p class="fw-bold mb-2">Part 1:Génie Electrique</p>
-                      <p class="text-muted">Zouari School</p>
-                      <p class="text-muted">112K Views . 3 years ago</p>
-                    </div>
-                  </div>
-
-                  
-                  </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-4">
-                  <div class="card h-100">
-                  <img src="/images/0x0.jpg" class="card-img-top img-fluid" alt="...">
-                  <div class="card-body">
-                    <img src="/images/images.jpeg" alt="">
-                    <div class="text">
-                      <p class="fw-bold mb-2">Part 1:Génie Electrique</p>
-                      <p class="text-muted">Zouari School</p>
-                      <p class="text-muted">112K Views . 3 years ago</p>
-                    </div>
-                  </div>
-
-                  </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-4">
-                  <div class="card h-100">
-                  <img src="/images/0x0.jpg" class="card-img-top img-fluid" alt="...">
-                  <div class="card-body">
-                    <img src="/images/images.jpeg" alt="">
-                    <div class="text">
-                      <p class="fw-bold mb-2">Part 1:Génie Electrique</p>
-                      <p class="text-muted">Zouari School</p>
-                      <p class="text-muted">112K Views . 3 years ago</p>
-                    </div>
-                  </div>
-
-                  
-                  </div>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-4">
-                  <div class="card h-100">
-                  <img src="/images/0x0.jpg" class="card-img-top img-fluid" alt="...">
-                  <div class="card-body">
-                    <img src="/images/images.jpeg" alt="">
-                    <div class="text">
-                      <p class="fw-bold mb-2">Part 1:Génie Electrique</p>
-                      <p class="text-muted">Zouari School</p>
-                      <p class="text-muted">112K Views . 3 years ago</p>
-                    </div>
-                  </div>
-
                 
+                              <!-- end card one -->
+                <!-- start card two -->
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                  <div class="card h-100">
+                  <img src="/images/2023-mclaren-artura-101-1655218102.jpg" class="card-img-top img-fluid" alt="...">
+                  <div class="card-body">
+                    <img src="/images/OpenEuphoria_mascot_200px.png" alt="">
+                    <div class="text">
+                      <p class="fw-bold mb-2">Lambourgini Gallado</p>
+                      <p class="text-muted">TopGear</p>
+                      <p class="text-muted">999M Views . 3 years ago</p>
+                    </div>
+                  </div>
+                <!-- end  card two -->
+
                   
                   </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-4">
                   <div class="card h-100">
-                  <img src="/images/0x0.jpg" class="card-img-top img-fluid" alt="...">
+                  <img src="/images/maxresdefault.jpg" class="card-img-top img-fluid" alt="...">
+                  <div class="card-body">
+                    <img src="/images/Twitter-logo-png.png" alt="">
+                    <div class="text">
+                      <p class="fw-bold mb-2">Part 1:Génie Electrique</p>
+                      <p class="text-muted">Zouari School</p>
+                      <p class="text-muted">112K Views . 3 years ago</p>
+                    </div>
+                  </div>
+
+                    <div class="col">
+                    </div>
+                  
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                  <div class="card h-100">
+                  <img src="/images/téléchargement (1).jpeg" class="card-img-top img-fluid" alt="...">
                   <div class="card-body">
                     <img src="/images/images.jpeg" alt="">
                     <div class="text">
@@ -268,9 +160,9 @@
                   
                   </div>
                 </div>
-              <div class="col">
-                <div class="card h-100">
-                  <img src="/images/0x0.jpg" class="card-img-top img-fluid" alt="...">
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                  <div class="card h-100">
+                  <img src="/images/youtube-thumbnail-design-template-f41731052ef38859a77214e2be972d69_screen.jpg" class="card-img-top img-fluid" alt="...">
                   <div class="card-body">
                     <img src="/images/images.jpeg" alt="">
                     <div class="text">
@@ -282,15 +174,34 @@
 
                     <div class="col">
                     </div>
+                  
+                  </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                  <div class="card h-100">
+                  <img src="/images/maxresdefault (1).jpg" class="card-img-top img-fluid" alt="...">
+                  <div class="card-body">
+                    <img src="/images/images.jpeg" alt="">
+                    <div class="text">
+                      <p class="fw-bold mb-2">Part 1:Génie Electrique</p>
+                      <p class="text-muted">Zouari School</p>
+                      <p class="text-muted">112K Views . 3 years ago</p>
+                    </div>
+                  </div>
+
+
+                  
                   
                   </div>
                 </div>
               </div>
-            
+            <!-- end videos cards section -->
+
             </div>
           </div>
           </div>
         </div>
+        <!-- end main section -->
       </div>
     </main>
     <script
